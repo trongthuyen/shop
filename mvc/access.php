@@ -3,7 +3,7 @@
 
 session_start();
 
-define('DOMAIN', 'http://localhost/shop');
+define('DOMAIN', 'https://trongthuyen.github.io/shop');
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 
 require_once './mvc/core/tool.php';
