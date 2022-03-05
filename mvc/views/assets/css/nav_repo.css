@@ -1,0 +1,118 @@
+@media (max-width: 525px) {
+    .cus-service{
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+
+    .logo-link {
+        display: none;
+    }
+
+    .nav-select {
+        display: block;
+        position: absolute;
+        right: 0;
+        background-color: var(--dark);
+        margin-top: 300px;
+    }
+    .header-top {
+        display: none;
+    }
+    
+}
+
+#checkox-nav-select {
+    display: none;
+}
+
+@media (max-width: 770px ) {
+    .search-item  {
+        width: 150px;
+    }
+
+    .nav-select {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: var(--dark);
+    margin-top: 300px;
+    display: none;
+    }
+    .category-list {
+        top: calc(100% + 2px);
+    }
+
+    table {
+        zoom: 0.5;
+    }
+    .padding-0-12,
+    .padding-0-80,
+    .padding-40-80 {
+        padding: 0px;
+    }
+    .header-nav {
+        zoom: 0.6;
+    }
+    #checkox-nav-select {
+        display: block;
+        font-weight: 900;
+        color: var(--bg-pink-1);
+        padding-top: 8px;
+        margin-right: 12px;
+    }
+    #navSelect:checked ~ ul.nav-select {
+        display: block;
+        position: absolute;
+        top: 74px;
+        right: 0px;
+        margin: 0px;
+        transform-origin: top;
+        animation: longer 0.3s ease-in;
+    }
+    #navSelect:checked ~ ul#nav-admin {
+        top: 53px;
+    }
+    .container {
+        width: 100vw;
+    }
+    #btn-buying {
+        position: fixed;
+        bottom: 0px;
+        width: 100vw;
+    }
+    .box-item {
+        width: 50vw;
+    }
+    #btnVerify {
+        position: absolute;
+        bottom: 0px;
+        width: 100vw;
+    }
+    .footer {
+        padding: 20px 0px;
+        text-align: center;
+    }
+    svg {
+        margin: auto;
+    }
+    .container-body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .container-content {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 770px ){
+    .account {
+        display: flex;
+    }
+
+
+}

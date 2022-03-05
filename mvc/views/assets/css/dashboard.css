@@ -1,0 +1,28 @@
+#dashboard {
+    padding: 20px;
+}
+.dashboard-item {
+    height: 250px;
+    margin: 12px;
+}
+.dashboard-link:hover {
+    opacity: 0.8;
+    background-color: rgba(51, 51, 51, 0.308);
+}
+.dashboard-link {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--bg-orange-1);
+    border-radius: 30px;
+}
+.dashboard-name {
+    font-size: 30px;
+    margin: 0px;
+}
+.dashboard-icon {
+    font-size: 80px;
+    margin-bottom: 12px;
+}

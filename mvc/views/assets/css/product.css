@@ -1,0 +1,136 @@
+.page-title {
+    color: var(--bg-orange-1);
+    padding: 12px;
+    font-weight: 600;
+}
+.box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 244px;
+    height: 330px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 6px 6px var(--bg-green-4-opacity);
+    position: relative;
+}
+.box-item:hover .box-item-more {
+    display: flex;
+    animation: opacity 0.3s linear;
+}
+.item-header {
+    height: 246px;
+    display: flex;
+    align-items: center;
+}
+.item-img {
+    max-width: 100%;
+}
+.item-body {
+    width: 100%;
+    padding: 6px;
+}
+.item-title {
+    max-height: 36px;
+    overflow: hidden;
+    color: white;
+}
+.item-content {
+    color: white;
+    margin: 0px;
+}
+
+.box-item-more {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.bg-item-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: 260px;
+    padding: 12px;
+    background-image: linear-gradient(60deg, var(--bg-pink-1-opacity) 30%, var(--bg-green-6-opacity) 100%);
+    box-shadow: 0px 0px 6px 6px var(--bg-green-4-opacity);
+    animation: longer 0.3s linear;
+}
+.item-info {
+    overflow: hidden;
+    width: 100%;
+}
+
+.product-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 26px;
+    border-bottom: 1px dotted var(--bg-red-1);
+}
+.product-title {
+    font-weight: 500;
+}
+.product-content {
+    font-size: 20px;
+}
+.product-buying {
+    display: flex;
+    justify-content: right;
+}
+.btn-buying {
+    padding: 4px 12px;
+    font-size: 18px;
+    background-color: var(--bg-orange-1);
+    border: 4px groove var(--bg-pink-1);
+}
+.product-description {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+
+.form-feedback {
+    display: flex;
+    align-items: flex-end;
+}
+.acc-info {
+    font-weight: 600;
+}
+
+.search-item {
+    border-bottom: 1px solid #aaa;
+}
+
+#feedback-area {
+    padding-top: 16px;
+}
+.feedback-item {
+    margin: 12px 0px;
+}
+.feedback-content {
+    margin-bottom: 0px;
+}
+.feedback-action {
+    margin-right: 12px;
+    color: var(--bg-blue-light);
+    cursor: pointer;
+    user-select: none;
+}
+.edit-input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    outline: none;
+}
+
+
+/* Order */
+/* Feedback */

@@ -1,0 +1,61 @@
+.container-banner {
+    height: 100vh;
+    background-image: url('http://localhost/shop/mvc/views/assets/thumbnail/bg-home/container0.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container-title {
+    font-weight: 700;
+    color: var(--bg-orange-1);
+    text-align: center;
+}
+.container-banner .container-title {
+    text-shadow: 4px 2px #333;
+}
+.container-service {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service-item-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid var(--bg-orange-1);
+    background-color: rgba(51, 51, 51, 0.774);
+}
+.service-icon {
+    font-size: 50px;
+    color: var(--bg-pink-1);
+}
+.service-name {
+    margin: 0px;
+    color: wheat;
+}
+.container-body {
+    padding: 20px 12px;
+    margin-top: 20px;
+}
+#container-outstanding {
+    position: relative;
+}
+.viewmore {
+    position: absolute;
+    bottom: 0px;
+    right: 45px;
+}
+.container-content {
+    padding: 0px 80px;
+    margin-top: 20px;
+    text-align: justify;
+}

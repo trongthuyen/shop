@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+a {
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 16px;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+input[type="checkbox"] {
+    display: none;
+}

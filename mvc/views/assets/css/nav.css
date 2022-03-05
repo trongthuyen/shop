@@ -1,0 +1,131 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-blue-light-sea);
+}
+.social-list {
+    display: flex;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.social-item {
+    margin: 0px 6px;
+}
+.cus-service a,
+.contact-link,
+.fanpage-link {
+    color: var(--bg-orange-1);
+    font-weight: 600;
+}
+
+
+.header-nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+}
+.logo-link {
+    color: var(--bg-pink-1);
+}
+.search {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px double var(--bg-pink-1);
+    border-left: 4px double var(--bg-pink-1);
+    border-right: 4px double transparent;
+    border-bottom: 4px double transparent;
+}
+.search-item {
+    width: 600px;
+    padding: 6px;
+    border: none;
+    outline: none;
+}
+.searching-icon {
+    font-size: 16px;
+    color: var(--bg-pink-1);
+}
+.account {
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.account-item {
+    margin-left: 36px;
+}
+
+.account-item-link {
+    color: var(--bg-pink-1);
+    font-size: 18px;
+}
+.account-item-link:hover {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.mynavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+}
+.nav-category {
+    position: relative;
+}
+.nav-title {
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--bg-pink-1);
+    padding: 0px 12px;
+    margin: 0px;
+}
+.category-list {
+    display: none;
+    max-height: 1000px;
+    overflow-y: auto;
+    position: absolute;
+    top: calc(100% + 14px);
+    left: 0;
+    background-color: var(--dark);
+    border: 2px solid var(--bg-brown-1);
+    padding-bottom: 12px;
+    transform-origin: top;
+    animation: longer 0.3s linear;
+}
+.category-item {
+    width: 250px;
+    padding: 6px 12px;
+    border-bottom: 1px solid #aaa;
+}
+.category-item:hover {
+    background-color: #555;
+}
+.category-item-link {
+    color: var(--bg-pink-1);
+}
+
+#checkbox-category:checked ~ .category-list {
+    display: block;
+}
+
+.nav-select {
+    display: flex;
+    align-items: center;
+}
+.nav-option {
+    padding: 6px 0px;
+}
+.nav-option:hover {
+    background-color: #555;
+}
+.nav-link:hover,
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--bg-blue-light);
+}

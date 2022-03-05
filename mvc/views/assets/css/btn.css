@@ -1,0 +1,42 @@
+.btn-radius {
+    border-radius: 30px;
+}
+.btn-bg {
+    background-color: var(--bg-orange-1-opacity);
+}
+.btn-yellow {
+    color: rgb(255, 255, 0);
+}
+.btn-product,
+.btn-search {
+    border: 4px groove var(--bg-pink-1);
+}
+.btn-product:hover,
+.btn-search:hover {
+    opacity: 0.8;
+}
+
+.btn-login {
+    background-color: var(--bg-pink-1);
+    width: 100%;
+    color: white;
+}
+.btn-login:hover {
+    background-color: var(--bg-pink-1-opacity);
+}
+.btn-adjust {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 4px groove var(--bg-pink-1);
+    cursor: default;
+    user-select: none;
+    color: white;
+}
+.btn-adjust:hover {
+    opacity: 0.7;
+}
+.btn-span {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

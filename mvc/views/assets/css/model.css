@@ -1,0 +1,43 @@
+.modelForm {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.267);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: opacity 0.3s ease-in;
+}
+.modelForm-form {
+    animation: longer 0.3s ease-in;
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.form-item-lable {
+    margin: 0px;
+}
+.quantity-edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-item-input {
+
+}
+.quantity-item {
+    padding: 0px 20px;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+}
+#money-sum {
+    text-align: right;
+    margin: 0px;
+}

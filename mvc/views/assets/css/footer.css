@@ -1,0 +1,31 @@
+.footer {
+    padding: 60px 80px;
+}
+
+.logo-link-foo:hover,
+.logo-link-foo {
+    color: var(--bg-orange-1);
+    zoom: 2;
+}
+.social-foo {
+    margin: 18px 0px;
+}
+.fanpage-foo:hover,
+.fanpage-foo,
+.contact-foo:hover,
+.contact-foo {
+    color: white;
+    font-weight: 500;
+}
+
+.contact-icon {
+    color: var(--bg-orange-1);
+    margin-right: 6px;
+}
+.foo-title {
+    font-weight: 600;
+    color: var(--bg-orange-1);
+}
+.foo-item {
+    margin-bottom: 12px;
+}
